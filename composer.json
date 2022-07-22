@@ -1,0 +1,28 @@
+{
+    "name": "liangmg/swoole",
+    "description": "the is swoole pack",
+    "type": "library",
+    "keywords": [
+        "swoole",
+        "sdk"
+    ],
+    "homepage": "https://gitee.com/comm-package/swoole",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lmg",
+            "email": "1490640996@qq.com",
+            "homepage": "https://gitee.com/comm-package"
+        }        
+    ],
+    "require": {
+        "php": ">=7.3",
+        "swoole/ide-helper": "@dev",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "vars3cf\\": "src/websocket"
+        }
+    }
+} 
