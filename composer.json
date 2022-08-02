@@ -18,11 +18,13 @@
     "require": {
         "php": ">=7.3",
         "swoole/ide-helper": "@dev",
-        "ext-json": "*"
+        "ext-json": "*",
+        "liangmg/sina": "^2.0"
     },
     "autoload": {
         "psr-4": {
-            "vars3cf\\": "src/websocket"
+            "vars3cf\\": "src/",
+            "app\\": "app"
         }
     }
-} 
+}
